@@ -1,0 +1,11 @@
+name: My First CI Workflow
+
+on: [push]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Welcome Message
+        run: echo "Hello! My first GitHub Actions workflow is running."
